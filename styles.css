@@ -9,14 +9,14 @@ body {
 	color: #5C6AC4;
 }
 .header{
-  color: maroon;
+  color: emerald;
   width: 100%;
   display: grid;
   justify-content: center;
 }
 .main{
   display: grid;
-  
+  grid-template-columns: 3fr 1fr 2fr 1fr 3fr 1fr;
   justify-content: center;
 }
 .howerpoint{
