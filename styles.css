@@ -31,3 +31,8 @@ body {
   align-items: center;
   justify-content: center;
 }
+.text{
+	color: black;
+	background-color: tan;
+	border-radius: 10px;
+}
