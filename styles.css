@@ -1,0 +1,29 @@
+body{
+  padding: 25px;
+  background-image: "main.jpeg";
+}
+.title {
+	color: #5C6AC4;
+}
+.header{
+  color: maroon;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+}
+.main{
+  display: grid;
+  
+  justify-content: center;
+}
+.howerpoint{
+  color: black;
+  width: 40px;
+  height: 40px;
+  opacity: 0.3;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
