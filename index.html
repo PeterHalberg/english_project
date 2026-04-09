@@ -20,5 +20,21 @@
       <div class = "howerpoint">6</div>
       <div class = "text">txt</div>
     </div>
+    <script>
+  const points = document.querySelectorAll('.howerpoint');
+
+  points.forEach(point => {
+    // Находим соседа справа (тот самый .text)
+    const content = point.nextElementSibling;
+
+    point.addEventListener('mouseenter', () => {
+      if (content) content.classList.add('visible');
+    });
+
+    point.addEventListener('mouseleave', () => {
+      if (content) content.classList.remove('visible');
+    });
+  });
+</script>
   </body>
 </html>
